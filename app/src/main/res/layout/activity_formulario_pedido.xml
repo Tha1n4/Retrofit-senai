@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText android:id="@+id/activity_formulario_pedido_cliente"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Cliente"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/activity_formulario_pedido_data"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:inputType="date"
+        android:hint="Data"
+        android:layout_height="wrap_content" />
+    <EditText android:id="@+id/activity_formulario_pedido_valor"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:hint="Valor"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/activity_formulario_pedido_botao_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="numberDecimal"
+        android:text="Salvar" />
+
+</LinearLayout>
